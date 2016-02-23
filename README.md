@@ -75,6 +75,8 @@ CJS Equivalent:
 let firstname = "Caridy";
 let lastname = "Patiño";
 module.exports = {
-    get fullname() => `${firstname} ${lastname}`
+    get fullname() {
+        return `${firstname} ${lastname}`;
+    }
 };
 ```
